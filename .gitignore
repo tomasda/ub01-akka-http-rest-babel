@@ -1,5 +1,4 @@
 target/
-.bsp/
 .metals/
 *.class
 *.log
@@ -11,8 +10,8 @@ target/
 dist/*
 lib_managed/
 src_managed/
-project/boot/
-project/plugins/project/
+project/project/
+project/tarjet/
 
 # Scala-IDE specific
 .scala_dependencies
@@ -34,5 +33,3 @@ tags
 .ensime_cache/
 .ensime
 
-native
-.idea/
