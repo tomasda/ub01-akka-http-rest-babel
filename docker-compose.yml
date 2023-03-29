@@ -4,10 +4,10 @@ services:
     restart: always
     image: your.image.store:5000/services/akka-http-rest:1.0.0
     ports:
-      - 80:9000
+      - "9000"
     environment:
       APP_SECRET: "some-secret-value"
-      JDBC_URL: "jdbc:postgres://td4.ddns.net:5432/rest"
+      JDBC_URL: "jdbc:postgres://localhost:5432/rest"
       JDBC_USER: "postgres"
       JDBC_PASSWORD: "postgres"
   postgres:
