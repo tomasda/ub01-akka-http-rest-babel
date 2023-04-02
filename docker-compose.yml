@@ -2,7 +2,7 @@ version: '2'
 services:
   apiserver:
     restart: always
-    image: your.image.store:5000/services/akka-http-rest:1.0.0
+    image: localhost:5000/services/akka-http-rest:1.0.0
     ports:
       - "9000"
     environment:

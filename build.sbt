@@ -1,7 +1,9 @@
 
 name := "ub01-akka-http-rest-babel"
 
-version := "0.2"
+//version := "0.2"
+Docker / version := "0.0.2"
+dockerRepository := Some("localhost:9000")
 
 scalaVersion := "2.13.8"
 
